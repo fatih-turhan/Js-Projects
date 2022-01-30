@@ -1,7 +1,4 @@
-// Variable - Most Basic Building Block
-// Variables - Store, Access, Modify === Value
-// Declare, Assignment Operator, Assign Value
-// assign value later, modify existing
+// ************* GUES THE DICE **********
 
 const form = document.querySelector(".form");
 const formValue = document.querySelector(".value");

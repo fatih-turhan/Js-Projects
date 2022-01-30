@@ -53,7 +53,7 @@ btns.forEach(function (btn) {
       showAlert("You loose");
       compScoreValue++;
     }
-
+    // finish the game
     if (yourScoreValue === 3) {
       winLost("You won all game", "win");
       setBackToDefault();

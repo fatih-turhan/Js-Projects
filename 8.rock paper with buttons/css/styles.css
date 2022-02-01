@@ -175,6 +175,21 @@ p {
 }
 /* 
 ========
-Pop Up
+Rock Paper
 ========
 */
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.game {
+  text-align: center;
+}
+.final-result {
+  display: none;
+}
+.show-final-result {
+  display: block;
+}

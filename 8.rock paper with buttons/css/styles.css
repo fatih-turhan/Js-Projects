@@ -187,6 +187,12 @@ body {
 .game {
   text-align: center;
 }
+.btn-containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem;
+  margin-top: 1rem;
+}
 .final-result {
   display: none;
 }

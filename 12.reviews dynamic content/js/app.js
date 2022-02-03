@@ -31,7 +31,7 @@ const reviews = [
 
 // ********** REVIEWS ************
 
-const btns = document.querySelectorAll(".button");
+// const btns = document.querySelectorAll(".button");
 const contentsContainer = document.querySelector(".contents");
 const btnsContainer = document.querySelector(".buttons");
 // load items when open
@@ -75,7 +75,7 @@ function showButtons() {
     return `<div data-id="${btn}" class="button "></div>`;
   });
   btnsContainer.innerHTML = addBtns;
-  // sellect buttons
+  // sellect buttons after adding
   const btns = document.querySelectorAll(".button");
   // add active to first button
   const firstBtn = btnsContainer.children[0];

@@ -43,7 +43,6 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 // show item
-
 function showItem(object) {
   const item = reviews[object];
   contentContainer.innerHTML = `<img class="img" src="${item.img}" alt="" />

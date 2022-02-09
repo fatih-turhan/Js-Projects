@@ -24,8 +24,10 @@ let number = 0;
 form.addEventListener("submit", addItem);
 // ---- clear all btn
 clearBtn.addEventListener("click", clearItems);
-// give random button
+// ---- give random button
 randomBtn.addEventListener("click", giveRandomFromLs);
+// ---- setup items
+window.addEventListener("DOMContentLoaded", setUpItems);
 
 // ********** FUNCTIONS *********
 function addItem(e) {
@@ -34,36 +36,15 @@ function addItem(e) {
   number++;
   const value = input.value;
   const id = new Date().getTime().toString();
+
   if (value && !editFlag) {
-    // create article
-    const article = document.createElement("article");
-    article.classList.add("item");
-    // create atrr
-    const attr = document.createAttribute("dataset-id");
-    attr.value = id;
-    // set attribute
-    article.setAttributeNode(attr);
-    // inner HTML
-    article.innerHTML = `    <p class="item-text"><span class="number">${number}.</span> ${value}</p>
-              <!-- edit-delte-btn -->
-              <div class="buttons">
-                <button class="edit-btn"><i class="far fa-edit"></i></button>
-                <button class="delete-btn"><i class="fas fa-trash"></i></button>
-              </div>`;
-    // sellect btns after create
-    const editBtn = article.querySelector(".edit-btn");
-    const deleteBtn = article.querySelector(".delete-btn");
-    // add event listener
-    editBtn.addEventListener("click", editItem);
-    deleteBtn.addEventListener("click", deleteItem);
-    // appen article
-    parent.appendChild(article);
+    createListItems(id, value, number);
     // show container
     container.classList.add("show-items-container");
     // show alert
     showAlert("item added", "succes");
     // add local storage
-    addLocalStorage(id, value);
+    addLocalStorage(id, value, number);
     // set back to default
     setBackToDefault();
   } else if (value && editFlag) {
@@ -159,8 +140,8 @@ function randomFromList(arr) {
 
 // ********** LOCAL STORAGE *********
 // ----- add local storage
-function addLocalStorage(id, value) {
-  const inputs = { id, value };
+function addLocalStorage(id, value, number) {
+  const inputs = { id, value, number };
   let items = giveLocalStorage();
   items.push(inputs);
   localStorage.setItem("list", JSON.stringify(items));
@@ -191,4 +172,42 @@ function editLocalStroge(id, value) {
 // -- giveLocalStorage
 function giveLocalStorage() {
   return localStorage.getItem("list") ? JSON.parse(localStorage.getItem("list")) : [];
+}
+// ********* SETUP ITEMS ************
+function setUpItems() {
+  let items = giveLocalStorage();
+
+  if (items.length > 0) {
+    items.forEach(function (item) {
+      createListItems(item.id, item.value, item.number);
+      number = item.number;
+      container.classList.add("show-items-container");
+    });
+  }
+}
+
+function createListItems(id, value, number) {
+  // create article
+  const article = document.createElement("article");
+  article.classList.add("item");
+  // create atrr
+  const attr = document.createAttribute("dataset-id");
+  attr.value = id;
+  // set attribute
+  article.setAttributeNode(attr);
+  // inner HTML
+  article.innerHTML = `    <p class="item-text"><span class="number">${number}.</span> ${value}</p>
+              <!-- edit-delte-btn -->
+              <div class="buttons">
+                <button class="edit-btn"><i class="far fa-edit"></i></button>
+                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+              </div>`;
+  // sellect btns after create
+  const editBtn = article.querySelector(".edit-btn");
+  const deleteBtn = article.querySelector(".delete-btn");
+  // add event listener
+  editBtn.addEventListener("click", editItem);
+  deleteBtn.addEventListener("click", deleteItem);
+  // appen article
+  parent.appendChild(article);
 }

@@ -53,6 +53,7 @@ const inputOne = document.querySelector(".input-one");
 const inputTwo = document.querySelector(".input-two");
 const container = document.querySelector(".buttons-container");
 const submitBtn = document.querySelector(".submit-btn");
+const result = document.querySelector(".result");
 
 let calculate;
 
@@ -65,6 +66,6 @@ form.addEventListener("submit", function (e) {
     container.style.display = "grid";
     submitBtn.style.display = "none";
   } else {
-    console.log("please enter a value");
+    result.textContent = "please enter a number";
   }
 });

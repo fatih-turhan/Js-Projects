@@ -46,6 +46,13 @@ function counter(element) {
     } else {
       returnFunction().reset();
     }
+    if (resultValue > 0) {
+      result.style.color = "green";
+    } else if (resultValue < 0) {
+      result.style.color = "red";
+    } else {
+      result.style.color = "black";
+    }
   });
 }
 const counterOne = counter(getElement(".counter-one"));

@@ -1,0 +1,100 @@
+      <!-- single-car -->
+        <article class="card">
+          <!-- card-front -->
+          <div class="card-side card-front">
+            <!-- car-img -->
+            <div class="card-img-cont">
+              <img class="card-img" src="./images/car.jpeg" alt="" />
+            </div>
+            <!-- car-info -->
+            <div class="car-info">
+              <!-- car-info-title -->
+              <h3 class="car-info-title">Ferrari 812 Superfast</h3>
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>Years:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>Production:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>Engine:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>Power:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>Torque:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>0-60 mph:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+              <!-- car-info-text-div -->
+              <div class="car-info-div">
+                <!-- car-info-icon -->
+                <span class="car-icon">
+                  <i class="fas fa-car"></i>
+                </span>
+                <!-- car-info-text -->
+                <p class="car-info-text"><span>Top-speed:</span>US$340,712</p>
+              </div>
+              <!-- end of car-info-text-div -->
+            </div>
+          </div>
+          <!-- card-back -->
+          <div class="card-side card-back">
+            <!-- card-back-info -->
+            <div class="card-back-info">
+              <p class="card-back-text">
+                A grand tourer with a whopping 789 hp, wrapped in a curvaceous Italian
+                body, paired to one of the greatest chassis we have ever experienced. With
+                its front-mid-mounted naturally aspirated 6.5L V12 engine and rear-wheel
+                drive layout, it is the latest iteration of Ferrari’s super-GT car.
+              </p>
+              <a class="card-back-btn btn" href="">learn more</a>
+            </div>
+            <!-- end ofcard-back-info -->
+          </div>
+        </article>
+        <!-- end of single-car -->

@@ -1,0 +1,98 @@
+[
+  {
+    "img": "./images/img-1.jpg",
+    "name": "ferrari 821 superfast",
+    "price": 20000,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "A grand tourer with a whopping 789 hp, wrapped in a curvaceous Italian body, paired to one of the greatest chassis we have ever experienced. With its front-mid-mounted naturally aspirated 6.5L V12 engine and rear-wheel drive layout, it is the latest iteration of Ferrari’s super-GT car."
+  },
+  {
+    "img": "./images/img-2.jpg",
+    "name": "Ferrari SF90 Stradale",
+    "price": 507000,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "Ferrari’s SF90 Stradale is a stunning new hybrid supercar that produces 989 hp from a plug-in hybrid powertrain. This hybrid setup utilizes a twin-turbocharged 4.0L V8 combustion engine, paired to three electric motors."
+  },
+  {
+    "img": "./images/img-3.jpg",
+    "name": "Ferrari SF90 Spider",
+    "price": 333333,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "The Ferrari SF90 Spider has now been unveiled as Ferrari’s first plug-in hybrid roadster with close to 1,000 hp. The car is the open-top version of the SF90 Stradale. It maintains many of the Stradale’s specs, including a 211 mph top speed. It will do a 0-60 mph time in just 2.5 seconds."
+  },
+  {
+    "img": "./images/img-4.jpg",
+    "name": "Ferrari Portofino M",
+    "price": 20020,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "The Portofino has been, for a couple of years, the marque’s 2+2 grand touring cabriolet. It was, and still is, a powerhouse of comfort and technology, easily able to cross continents as much as drive a few blocks to the store. It is getting its first refresh with Roma hardware throughout."
+  },
+  {
+    "img": "./images/img-5.jpg",
+    "name": "Ferrari F8 Tributo",
+    "price": 231200,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "Billed as the replacement for the 488 GTB, the F8 Tributo inherits much of the outgoing model’s DNA. Mind you, this is largely – if not entirely – a positive thing, as the F8 Tributo notably improves in areas where there was room to, while keeping in the essence of what worked so well before."
+  },
+  {
+    "img": "./images/img-6.jpg",
+    "name": "Ferrari F8 Spider",
+    "price": 12300,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "The F8 Spider replaces the 488 Spider and is officially on sale in Ferrari dealerships. It is powered by a twin-turbocharged 3.9-liter V-8 that produces 710 horsepower and 568 lb-ft of torque. It is rear-wheel drive, and a seven-speed automatic transmission changes the gears."
+  },
+  {
+    "img": "./images/img-7.png",
+    "name": "Ferrari Roma",
+    "price": 23000,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "The vehicle is a stunning thing to look at, with a minimalist (by today’s standards) grille and a shark-nose front end. It’s long, lean, and so utterly Ferrari. Gets a 3.9L twin-turbo V8 engine with new cam profiles and a speed sensor that allows the maximum rpm to rise by 5,000 rpm."
+  },
+  {
+    "img": "./images/img-8.jpg",
+    "name": "Ferrari 812 GTS",
+    "price": 90000,
+    "engine": "6.5L V12",
+    "power": "789 hp @ 8500 rpm",
+    "torque": "530 lb-ft @ 7000 rpm",
+    "zeroSix": "2.8 s",
+    "zeroHund": "5.8 s",
+    "speed": "211 mph",
+    "info": "A grand tourer with a whopping 789 hp, wrapped in a curvaceous Italian body, paired to one of the greatest chassis we have ever experienced. With its front-mid-mounted naturally aspirated 6.5L V12 engine and rear-wheel drive layout, it is the latest iteration of Ferrari’s super-GT car."
+  }
+]

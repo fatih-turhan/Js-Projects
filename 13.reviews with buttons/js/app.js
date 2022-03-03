@@ -73,3 +73,13 @@ decrease.addEventListener("click", function () {
   showItem(currentItem);
   console.log(currentItem);
 });
+
+random.addEventListener("click", function () {
+  const random = giveRandom(reviews);
+  console.log(random);
+  showItem(random);
+});
+
+function giveRandom(arr) {
+  return Math.floor(Math.random() * arr.length);
+}

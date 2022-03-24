@@ -76,7 +76,6 @@ decrease.addEventListener("click", function () {
 
 random.addEventListener("click", function () {
   const random = giveRandom(reviews);
-  console.log(random);
   showItem(random);
 });
 

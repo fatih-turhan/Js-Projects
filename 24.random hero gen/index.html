@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random Hero</title>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/cd03e9dc4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- styles css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- section -->
+    <section class="random-section">
+      <article>
+        <h1>random superhero generator</h1>
+        <div class="underline"></div>
+        <!-- img -->
+        <div class="img-container">
+          <img
+            class="img"
+            src="https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/1-a-bomb.jpg"
+            alt=""
+          />
+        </div>
+        <!-- title -->
+        <p class="title">Hero's name is</p>
+        <!-- text -->
+        <p class="text">A-Bomb</p>
+        <!-- buttons-container -->
+        <div class="buttons-container">
+          <button data-id="name" class="btn">name</button>
+          <button data-id="gender" class="btn">gender</button>
+          <button data-id="race" class="btn">race</button>
+          <button data-id="realName" class="btn">real name</button>
+          <button data-id="alignment" class="btn">alignment</button>
+        </div>
+      </article>
+      <!-- random btn -->
+      <button title="give radnom" class="random-btn">
+        <i class="fas fa-dice"></i>
+      </button>
+    </section>
+    <!-- end of section -->
+    <!-- body background -->
+    <div class="fifty"></div>
+    <!-- js -->
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

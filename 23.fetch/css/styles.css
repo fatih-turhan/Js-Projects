@@ -1,0 +1,32 @@
+/* 
+=========
+Cars
+=========
+*/
+body {
+  height: 100vh;
+  background-color: var(--clr-grey-9);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.title,
+.btn {
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: #0000ffd0;
+  border-radius: 1.5rem;
+}
+.btn:hover {
+  background-color: #b3beff;
+}
+.text {
+  color: black;
+  font-size: 1.3rem;
+  transition: var(--transition);
+  visibility: hidden;
+}
+.show-text {
+  visibility: visible;
+}
